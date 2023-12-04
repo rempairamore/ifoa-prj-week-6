@@ -1,0 +1,116 @@
+.navbar {
+  background-color: #141414;
+}
+
+.navbar-brand img {
+  height: 3em;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #e50914;
+}
+
+.navbar-toggler-icon {
+  /* Assicurati di fornire una immagine adeguata qui se necessario */
+}
+
+.profile-dropdown img {
+  max-height: 30px;
+  border-radius: 50%;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.search-icon,
+.bell-icon,
+.profile-icon {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.icons {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.nav-link {
+  color: white !important;
+}
+/* .socialIcon {
+    display: flex;
+    justify-content: left;
+    width: 70%;
+    margin-top: 3em;
+} */
+
+.bi {
+  font-size: 2rem;
+  color: rgb(125, 125, 125);
+}
+
+/* 
+footer {
+    width: 70%;
+}
+  .tuttoFooter {
+    color: rgb(125, 125, 125); 
+  }
+
+  .tuttoFooter a {
+    color: rgb(125, 125, 125)!important; 
+    text-decoration: none;
+
+  } */
+
+.card {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+footer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; /* Centra il footer all'interno del suo contenitore genitore */
+}
+
+.socialIcon,
+.tuttoFooter {
+  text-align: left; /* Assicura che tutto il contenuto sia allineato a sinistra */
+}
+
+.socialIcon {
+  margin-left: 0.5em;
+}
+
+.tuttoFooter a {
+  color: rgb(125, 125, 125) !important;
+  text-decoration: none;
+}
+
+.tuttoFooter li {
+  margin-bottom: 1em;
+  font-size: 0.7em;
+}
+
+.copyright,
+.bottoneFooter button {
+  color: rgb(125, 125, 125);
+  font-size: 0.7em;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(125,125,125)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
